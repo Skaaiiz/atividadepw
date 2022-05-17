@@ -1,0 +1,22 @@
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    padding-bottom: 0!important;
+    text-align: center;
+    font-size: 20px;
+    background-color: #edecec;
+    color: #000;
+    margin: 0;
+    min-height: 100%;
+    display:block;
+}
+
+.navbar {
+    min-height: 50px;
+    z-index: 100000;
+    position: relative;
+    background-color: transparent!important;
+    border: none;
+    height: auto;
+    margin-bottom: 100px;
+}

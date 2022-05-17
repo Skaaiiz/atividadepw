@@ -1,0 +1,46 @@
+
+/*Foi escolhido o Layout hibrido uma vez que o site possuí um conunto de imagens e textos que precisam ser facilmente visualizados em diversos navegadores. 
+Ou seja:
+As imagens não podem ser cortadas caso o navegador seja menor que o esperados (não poderia ser layout fixo)
+As imagens tem que se ajustar com o tamanho da tela sem que fique distorcias (não poderia ser o layout elástico)
+Os comprimentos de linhas não podem se tornar difíceis de ler em telas grandes (não poderia ser o layout fluído)*/
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    min-height: 100%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+p, li, tr {
+    font-style: bold;
+    width: 100%;
+    font-size: large;
+} 
+
+h2{
+    border-left: 6px solid red;
+    font-style: oblique;
+}
+
+table, th, td {
+    border: 2px dotted;
+  }
+
+table{
+    border-style: dotted;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    width: 100%;
+}
+
+img
+{display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}

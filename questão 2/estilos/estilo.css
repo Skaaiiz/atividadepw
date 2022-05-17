@@ -1,0 +1,53 @@
+body { 
+	font: 120% Garamond, sans-serif;
+	line-height: 1.5;
+	color: #462c13; 
+	background: rgb(236, 245, 238); 
+	margin: 15; 
+	}
+
+p { 
+    text-align: left;
+    }
+
+header{
+    font: italic 150% Garamond, sans-serif;
+    color: #3d250c;
+    text-align: center
+    }
+
+h3 { 
+    font: italic 250% Garamond, sans-serif;
+    letter-spacing: 1px;  
+    color: #3d250c;
+    }
+    
+a:link { 
+    font-weight: bold;
+    font-style: italic;
+    color: #fa86ca;
+    }
+
+.intro { 
+    min-width: 470px;
+    width: 100%;
+    }
+
+.summary p {
+    border-style: dotted;
+    font: italic 1.2em Garamond; 
+    text-align: left;
+    }
+    
+.page-wrapper { 
+    background: url(https://freesvg.org/img/Street-Flowers-Woodcut-2016011416.png) no-repeat top left;
+    background-size: 200px 150px;
+    padding: 0 35px 0 22px;  
+    margin: 0; 
+    position: static;
+        }
+
+.sidebar .wrapper {
+    background: url(https://freesvg.org/img/1382837294.png) no-repeat bottom;
+    background-size: 200px 150px;
+     }
