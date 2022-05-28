@@ -3,15 +3,15 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-size: 10px;
-    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     margin: 0;
     height: 100%;
 }
 
 body {
-    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.42857143;
-    padding-bottom: 0!important;
+    padding-bottom: 0 !important;
     text-align: center;
     font-size: 20px;
     background-color: #edecec;
@@ -30,9 +30,15 @@ h1 {
     font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6, h7 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7 {
     font-size: 24px;
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     padding-bottom: 5px;
 }
 
@@ -54,7 +60,7 @@ footer {
 }
 
 footer>div {
-    font-family: Helvetica,Arial,sans-serif;
+    font-family: Helvetica, Arial, sans-serif;
     font-size: 12px;
     max-width: 1200px;
     width: 100%;
@@ -71,4 +77,126 @@ footer {
     bottom: 0;
     width: 100%;
     height: 20%;
+}
+
+.btn-login {
+    color: #fff !important;
+    background-color: teal;
+    font-size: 18px;
+}
+
+.btn-signIn {
+    color: #fff !important;
+    background-color: teal;
+    font-size: 18px;
+}
+
+.btn-access {
+    color: #fff !important;
+    background-color: teal;
+    font-size: 18px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    padding: 6px 12px;
+}
+
+.navbar .nav>li>a {
+    text-shadow: none;
+    color: #000;
+    font-weight: 700;
+    padding: 15px;
+    display: inline-block;
+    position: relative;
+}
+
+.pull-right {
+    float: right !important;
+    margin-top: 0.6%;
+    margin-right: 1%;
+    padding-left: 1%;
+}
+
+.pull-right>a {
+    margin-right: 60px;
+}
+
+.sideBar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+}
+
+.btn-sideBar {
+    margin-top: 4%;
+    margin-left: 5%;
+    float: left;
+}
+
+#nav {
+    -moz-border-radius: 0 0 8px 8px;
+    -webkit-border-radius: 0 0 8px 8px;
+    top: 0;
+    z-index: 9999 !important;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .3);
+    height: 55px;
+    padding-bottom: 21px;
+    margin-bottom: 35px;
+    white-space: nowrap;
+}
+
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+    white-space: nowrap;
+}
+
+.pull-left {
+    float: left !important;
+    white-space: nowrap;
+    display: block;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    width: 20%;
+
+}
+
+.titulo {
+    float: left;
+}
+
+.sidebarClose{
+    
+}
+
+.bar-item {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
 }

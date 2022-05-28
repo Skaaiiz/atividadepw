@@ -1805,11 +1805,6 @@ html {
             max-height:340px;
             }
             
-            .navbar-fixed-top {
-            top:0;
-            border-width:0 0 1px;
-            }
-            
             .navbar-fixed-bottom {
             bottom:0;
             margin-bottom:0;
@@ -3225,10 +3220,6 @@ html {
             margin-left:auto;
             }
             
-            .pull-right {
-            float:right!important;
-            }
-            
             .pull-left {
             float:left!important;
             }
@@ -4235,12 +4226,6 @@ font-family:Helvetica,Arial,sans-serif;
 height:25px;
 }
 
-h1,h2,h3,h4,h5,h6,h7 {
-font-size:24px;
-font-family:Helvetica,Arial,sans-serif;
-padding-bottom:5px;
-}
-
 h2 {
 line-height:15px;
 }
@@ -4325,18 +4310,6 @@ margin:0 auto;
 padding:0;
 }
 
-#nav {
--moz-border-radius:0 0 8px 8px;
--webkit-border-radius:0 0 8px 8px;
-top:0;
-z-index:9999!important;
-background-color:#fff;
-border-radius:0;
-box-shadow:0 1px 6px rgba(0,0,0,.3);
-height:55px;
-padding-bottom:21px;
-margin-bottom:35px;
-}
 
 #nav>ul {
 height:34px;

@@ -3,16 +3,26 @@
     <head>
         <meta charset="utf-8">
       <title>Atividade de Programação Web</title>
-      <link rel="stylesheet" type="text/css" href="estilos/style.css" />
+      <link rel="stylesheet" type="text/css" href="css/style.css" />
+      <link href= "css/styles.css" rel="stylesheet" type="text/css" />
     </head>
 
     <body>
         <div class="navbar navbar-fixed-top">
+            <div class="sideBar" id="mySideBar" style="display:none">
+                <button onclick="sidebar_close()" class="sidebarClose" >Close &times;</button>
+                <a href="#" class="bar-item bar-button">Link 1</a>
+                <a href="#" class="bar-item bar-button">Link 2</a>
+                <a href="#" class="bar-item bar-button">Link 3</a>
+            </div>
             <ul class="nav pull-left">
+            <!--<li class="btn-sideBar"><button onclick="sidebar_open()">☰</button></li> -->
             <li class="titulo"><a href="/" title="Crie suas Fanfics e Histórias">Crie suas Fanfics</a></li>
+            
             </ul>
             <ul class="nav pull-right"
             <li class="login"><a rel="nofollow" href="/login" title="Acessar sua Conta">Entre</a></li>
+            
             
             <li class="dropdown">
             <ul class="dropdown-menu">
@@ -23,15 +33,16 @@
             </li>
             <input type="text" placeholder="Search..">
             </ul>
-            </div>
-           
             <nav id="nav">
                 <ul>
                 <li><a href="generos.html" title="Ver todos os Gêneros de Fanfics / Fanfictions">Gêneros</a></li>
                 <li><a href="categorias.html" title="Ver todas as Categorias de Fanfics / Fanfictions">Categorias</a></li>
                 <li class="hidden-xs"><a href="tags.html" title="Ver todas as Tags de Fanfics">Tags</a></li>
                 </ul>
-            </nav> 
+            </nav>  
+            </div>
+           
+            
         
             <footer>
                 <div>
@@ -58,6 +69,15 @@
                 </footer>
 
         
-    </body>
+                <script>
+                    function sidebar_open() {
+                      document.getElementById("mySideBar").style.display = "block";
+                    }
+                    
+                    function sidebar_close() {
+                      document.getElementById("mySideBar").style.display = "none";
+                    }
+                </script>
 
+    </body>
 </html>
